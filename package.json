@@ -1,0 +1,33 @@
+{
+  "name": "quick-maths",
+  "version": "0.0.0",
+  "description": "Do quick maffs like BIG SHAQ!",
+  "main": "index.js",
+  "author": "Jakub Benes <jukben@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jukben/quick-maths"
+  },
+  "bugs": {
+    "url": "https://github.com/jukben/quick-maths/issues"
+  },
+  "homepage": "https://github.com/jukben/quick-maths",
+  "scripts": {
+    "test": "jest",
+    "build": "babel index.js -o lib/index.js",
+    "dev": "npm run build -- -w",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
