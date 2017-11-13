@@ -1,6 +1,6 @@
 {
   "name": "quick-maths",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Do quick maffs like BIG SHAQ!",
   "main": "index.js",
   "author": "Jakub Benes <jukben@gmail.com>",
@@ -20,10 +20,10 @@
     "prepare": "npm run build"
   },
   "devDependencies": {
-    "jest": "^21.2.1",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
   },
   "babel": {
     "presets": [
