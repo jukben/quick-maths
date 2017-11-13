@@ -21,7 +21,7 @@ const quickMaffs = new Maffs(2).plus(2).is() // 4
 
 ### API
 
-### `quickmath(number: value)`
+### `new quickMaffs(number: value)`
 
 #### `.plus(number: value)`
 #### `.minus(number: value)`
