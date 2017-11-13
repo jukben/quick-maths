@@ -2,7 +2,7 @@
   "name": "quick-maths",
   "version": "0.0.1",
   "description": "Do quick maffs like BIG SHAQ!",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Jakub Benes <jukben@gmail.com>",
   "license": "MIT",
   "repository": {
