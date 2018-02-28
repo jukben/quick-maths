@@ -4,6 +4,11 @@ it("2+2=4", () => {
   expect(new Maffs(2).plus(2).is()).toEqual(4);
 });
 
+it("correct implicit conversion into JS number", () => {
+  expect(+new Maffs(2)).toEqual(2);
+})
+
+
 it("2+2=4-1=3", () => {
   const two = new Maffs(0).plus(2);
   const twoPlusTwo = two.plus(2);

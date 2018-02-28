@@ -23,6 +23,10 @@ export default class QuickMaths {
     return "" + this.is();
   }
 
+  valueOf() {
+    return this.is();
+  }
+
   plus(value) {
     return new QuickMaths(this.value + this._getNumber(value));
   }
