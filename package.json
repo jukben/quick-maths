@@ -1,6 +1,6 @@
 {
   "name": "quick-maths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Do quick maffs like BIG SHAQ!",
   "main": "lib/index.js",
   "author": "Jakub Benes <jukben@gmail.com>",
