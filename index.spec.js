@@ -6,8 +6,7 @@ it("2+2=4", () => {
 
 it("correct implicit conversion into JS number", () => {
   expect(+new Maffs(2)).toEqual(2);
-})
-
+});
 
 it("2+2=4-1=3", () => {
   const two = new Maffs(0).plus(2);
@@ -33,4 +32,8 @@ it("man's hot", () => {
   expect(() => new Maffs("hot")).toThrow(
     "Value has to be number of QuickMaths instance"
   );
+});
+
+it("calculate correctly with Maffs instance", () => {
+  expect(new Maffs(new Maffs("2")).is()).toBe(2);
 });
