@@ -7,7 +7,7 @@ export default class QuickMaths {
     const number = parseInt(value, 10);
 
     if (value instanceof QuickMaths) {
-      return value.is;
+      return value.is();
     } else if (typeof number === "number" && !Number.isNaN(number)) {
       return parseInt(value, 10);
     } else {
